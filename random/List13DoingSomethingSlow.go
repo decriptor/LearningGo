@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-import "time"
+import (
+	"fmt"
+	"time"
+)
 
 func DoSomethingSlow() {
 	fmt.Println("SLOW: maybe I'm doing network stuff?")
@@ -20,4 +22,3 @@ func main() {
 	fmt.Println("Finished the main task!")
 	time.Sleep(1 * time.Second)
 }
-
